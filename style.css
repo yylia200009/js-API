@@ -1,0 +1,116 @@
+* {box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;}
+body {
+    background-color: #C4C4C4;
+    margin: 0;
+    padding: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#app{
+    width :80%;
+    
+    flex-direction: column;
+   margin: 0 auto  ;
+}
+
+.searchInput{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding-left: 8px;
+ 
+}
+
+input:active,
+input:hover {
+    border-color:#9400d3 ;
+}
+
+.itemPepos {
+    background-color:#E3E3E3 ;
+}
+
+
+.itemEl:active {
+    background-color:#65CDF9 ;
+}
+
+.itemEl:hover {
+    background-color:#65CDF9 ;
+}
+
+
+.selectItem {
+    background-color:#E27BEB ;
+}
+
+.itemList{
+    background-color:#E3E3E3;
+    padding: 0;
+    margin-top: 0;
+    padding-right: 0;
+}
+
+.itemEl {
+    list-style-type: none;
+    border: 1px solid black;
+    border-bottom: 0px;
+    padding-left: 8px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.itemEl:last-child,
+.itEl:last-child  {border: 1px solid black;};
+
+#wrap{
+    width :100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nameEl {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 2px;
+}
+
+.wrapName{
+    display: flex;
+    flex-direction: column;
+}
+
+.itEl {
+    width: 80%;
+    padding: 8px;
+    margin: 0 auto  ;
+    background-color: #E27BEB;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    border: 1px solid black;
+    border-bottom:0;
+}
+
+.delete-btn{   
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #E27BEB;
+    border:none;
+    background:
+    linear-gradient(45deg, transparent calc(50% - 3px), red calc(50% - 3px), red calc(50% + 3px), transparent calc(50% + 3px)),
+    linear-gradient(-45deg, transparent calc(50% - 3px), red calc(50% - 3px), red calc(50% + 3px), transparent calc(50% + 3px));
+}
